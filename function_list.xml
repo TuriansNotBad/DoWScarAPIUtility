@@ -1,0 +1,180 @@
+<!--
+Contains all constants included by default in the game and an example function 
+GROUP tag not actually used for anything other than compatibility with the original scardoc.xml
+SHORTDESC and EXTDESC are simply concatenated together in the end result with double new line separating them.
+-->
+<FUNCTIONLIST>
+<GROUP name="Example">
+	<FUNCTION name="my_function">
+		<RESULT type="VOID"/>
+		<ARGS>
+			<ARG type="Void" name=""/>
+		</ARGS>
+		<SHORTDESC>Does a whole lotta nothing.</SHORTDESC>
+		<EXTDESC>But is very good at what it does.</EXTDESC>
+	</FUNCTION>
+	<CONST name = "SQUADSTATEID_Capture" value = "3"></CONST>
+	<CONST name = "STATEID_Capture" value = "10"></CONST>
+	<CONST name = "SCMD_Load" value = "72"></CONST>
+	<CONST name = "SCMD_ReinforceTrooper" value = "54"></CONST>
+	<CONST name = "RT_Requisition" value = "0"></CONST>
+	<CONST name = "UC_HeavyInfantryHigh" value = "4"></CONST>
+	<CONST name = "SCMD_BurrowToggle" value = "96"></CONST>
+	<CONST name = "PROX_LONGEST" value = "1"></CONST>
+	<CONST name = "MSTANCE_Ranged" value = "1"></CONST>
+	<CONST name = "STANCE_Hold" value = "0"></CONST>
+	<CONST name = "UC_Commander" value = "7"></CONST>
+	<CONST name = "SCMD_AttackMove" value = "62"></CONST>
+	<CONST name = "SCMD_UpgradeTrooperOverwatch" value = "70"></CONST>
+	<CONST name = "OS_Complete" value = "2"></CONST>
+	<CONST name = "STANCE_Burn" value = "2"></CONST>
+	<CONST name = "STATEID_Melee" value = "12"></CONST>
+	<CONST name = "SPT_StrategicObjective" value = "2"></CONST>
+	<CONST name = "PQ_AddOn" value = "1"></CONST>
+	<CONST name = "STATEID_GetBackUp" value = "23"></CONST>
+	<CONST name = "SCMD_ReinforceTrooperOverwatch" value = "69"></CONST>
+	<CONST name = "MAT_Player" value = "2"></CONST>
+	<CONST name = "PQ_Squad" value = "0"></CONST>
+	<CONST name = "SQUADSTATEID_CombatStance" value = "7"></CONST>
+	<CONST name = "STATEID_Heal" value = "6"></CONST>
+	<CONST name = "SCMD_UndeployWeapon" value = "78"></CONST>
+	<CONST name = "OS_Incomplete" value = "1"></CONST>
+	<CONST name = "AD_Advanced" value = "3"></CONST>
+	<CONST name = "R_NEUTRAL" value = "3"></CONST>
+	<CONST name = "STATEID_StrategicPointCapture" value = "3"></CONST>
+	<CONST name = "SQUADSTATEID_Move" value = "1"></CONST>
+	<CONST name = "MAT_EntityType" value = "0"></CONST>
+	<CONST name = "STATEID_StructureBuilding" value = "2"></CONST>
+	<CONST name = "TEAM_NEUTRAL" value = "2147483647"></CONST>
+	<CONST name = "SCMD_Detach" value = "67"></CONST>
+	<CONST name = "SPT_Relic" value = "3"></CONST>
+	<CONST name = "CT_Equal" value = "0"></CONST>
+	<CONST name = "DIFFICULTY_EASY" value = "0"></CONST>
+	<CONST name = "RT_Pop" value = "2"></CONST>
+	<CONST name = "CMD_AttackGround" value = "12"></CONST>
+	<CONST name = "CMD_CancelProduction" value = "4"></CONST>
+	<CONST name = "PROX_CENTER" value = "2"></CONST>
+	<CONST name = "DIFFICULTY_NORMAL" value = "1"></CONST>
+	<CONST name = "STANCE_Attack" value = "4"></CONST>
+	<CONST name = "SQUADSTATEID_Idle" value = "0"></CONST>
+	<CONST name = "RT_Power" value = "1"></CONST>
+	<CONST name = "SCMD_HarvestOff" value = "81"></CONST>
+	<CONST name = "UC_VehicleLow" value = "8"></CONST>
+	<CONST name = "PC_Music" value = "0"></CONST>
+	<CONST name = "CMD_BuildSquad" value = "3"></CONST>
+	<CONST name = "STATEID_Construction" value = "4"></CONST>
+	<CONST name = "MAT_WeaponType" value = "5"></CONST>
+	<CONST name = "SCMD_ReinforceLeader" value = "55"></CONST>
+	<CONST name = "CT_Defending" value = "1"></CONST>
+	<CONST name = "SCMD_StanceMelee" value = "61"></CONST>
+	<CONST name = "CT_BuildUnits" value = "4"></CONST>
+	<CONST name = "SCMD_Ability" value = "65"></CONST>
+	<CONST name = "CMD_Relocate" value = "28"></CONST>
+	<CONST name = "SCMD_Uproot" value = "93"></CONST>
+	<CONST name = "CT_Blocking" value = "4"></CONST>
+	<CONST name = "SCMD_Repair" value = "71"></CONST>
+	<CONST name = "SCMD_Patrol" value = "68"></CONST>
+	<CONST name = "MSTANCE_Assault" value = "0"></CONST>
+	<CONST name = "SCMD_Move" value = "48"></CONST>
+	<CONST name = "SCMD_Stance" value = "60"></CONST>
+	<CONST name = "UC_VehicleMed" value = "9"></CONST>
+	<CONST name = "CT_Stealth" value = "5"></CONST>
+	<CONST name = "AD_Hard" value = "2"></CONST>
+	<CONST name = "SCMD_Cannibalize" value = "79"></CONST>
+	<CONST name = "CT_Attacking" value = "2"></CONST>
+	<CONST name = "CT_GreaterThanEqual" value = "2"></CONST>
+	<CONST name = "STATEID_DeployWeapon" value = "24"></CONST>
+	<CONST name = "SCMD_BuildStructure" value = "51"></CONST>
+	<CONST name = "PROX_SHORTEST" value = "0"></CONST>
+	<CONST name = "CMD_DefaultAction" value = "0"></CONST>
+	<CONST name = "UI_Fullscreen" value = "1"></CONST>
+	<CONST name = "MAT_SquadType" value = "4"></CONST>
+	<CONST name = "SCMD_Entrench" value = "92"></CONST>
+	<CONST name = "SCMD_HarvestOn" value = "80"></CONST>
+	<CONST name = "STATEID_PlantFlag" value = "17"></CONST>
+	<CONST name = "STATEID_Pause" value = "9"></CONST>
+	<CONST name = "AD_Easy" value = "0"></CONST>
+	<CONST name = "SQUADSTATEID_Construction" value = "2"></CONST>
+	<CONST name = "CMD_Tunnel" value = "31"></CONST>
+	<CONST name = "CT_SquadCap" value = "0"></CONST>
+	<CONST name = "RT_WeaponUpgrade" value = "2"></CONST>
+	<CONST name = "AD_Insane" value = "4"></CONST>
+	<CONST name = "CT_Negative" value = "3"></CONST>
+	<CONST name = "UC_LightInfantryLow" value = "0"></CONST>
+	<CONST name = "MUT_Percentage" value = "3"></CONST>
+	<CONST name = "CT_None" value = "0"></CONST>
+	<CONST name = "SPT_StrategicPoint" value = "1"></CONST>
+	<CONST name = "MAT_Entity" value = "1"></CONST>
+	<CONST name = "STATEID_Projectile" value = "11"></CONST>
+	<CONST name = "UC_MonsterHigh" value = "6"></CONST>
+	<CONST name = "AD_Standard" value = "1"></CONST>
+	<CONST name = "CT_BuildAddOns" value = "7"></CONST>
+	<CONST name = "CT_BuildResearch" value = "6"></CONST>
+	<CONST name = "CMD_Stop" value = "1"></CONST>
+	<CONST name = "CT_BuildBuildings" value = "5"></CONST>
+	<CONST name = "CT_Resourcing" value = "3"></CONST>
+	<CONST name = "UC_MonsterMed" value = "5"></CONST>
+	<CONST name = "UC_VehicleHigh" value = "10"></CONST>
+	<CONST name = "UC_HeavyInfantryMed" value = "3"></CONST>
+	<CONST name = "UI_Cinematic" value = "2"></CONST>
+	<CONST name = "UC_LightInfantryMed" value = "1"></CONST>
+	<CONST name = "UI_Normal" value = "0"></CONST>
+	<CONST name = "R_UNDEFINED" value = "0"></CONST>
+	<CONST name = "SCMD_Unload" value = "73"></CONST>
+	<CONST name = "SCMD_UpgradeTrooper" value = "56"></CONST>
+	<CONST name = "SCMD_UnloadHere" value = "76"></CONST>
+	<CONST name = "R_ALLY" value = "2"></CONST>
+	<CONST name = "SQUADSTATEID_Patrol" value = "11"></CONST>
+	<CONST name = "RS_Complete" value = "3"></CONST>
+	<CONST name = "STATEID_Repair" value = "7"></CONST>
+	<CONST name = "RT_Trooper" value = "0"></CONST>
+	<CONST name = "STATEID_Evacuate" value = "8"></CONST>
+	<CONST name = "HTL_Max" value = "2"></CONST>
+	<CONST name = "HTL_Min" value = "1"></CONST>
+	<CONST name = "HTL_None" value = "0"></CONST>
+	<CONST name = "OS_Failed" value = "3"></CONST>
+	<CONST name = "CMD_Unload" value = "26"></CONST>
+	<CONST name = "CT_Tactics" value = "8"></CONST>
+	<CONST name = "SQUADSTATEID_Melee" value = "5"></CONST>
+	<CONST name = "CMD_RallyPoint" value = "14"></CONST>
+	<CONST name = "MUT_Enable" value = "2"></CONST>
+	<CONST name = "MUT_Multiplication" value = "1"></CONST>
+	<CONST name = "STATEID_Move" value = "1"></CONST>
+	<CONST name = "MAT_Squad" value = "3"></CONST>
+	<CONST name = "CT_Heavy" value = "2"></CONST>
+	<CONST name = "STANCE_StandGround" value = "1"></CONST>
+	<CONST name = "CT_LessThanEqual" value = "1"></CONST>
+	<CONST name = "RT_Leader" value = "1"></CONST>
+	<CONST name = "SCMD_Jump" value = "63"></CONST>
+	<CONST name = "CMD_Destroy" value = "2"></CONST>
+	<CONST name = "DIFFICULTY_HARD" value = "2"></CONST>
+	<CONST name = "SCMD_Attach" value = "66"></CONST>
+	<CONST name = "SCMD_AttackGround" value = "58"></CONST>
+	<CONST name = "SQUADSTATEID_Combat" value = "4"></CONST>
+	<CONST name = "SCMD_Attack" value = "53"></CONST>
+	<CONST name = "PC_Ambient" value = "1"></CONST>
+	<CONST name = "SCMD_Capture" value = "52"></CONST>
+	<CONST name = "SCMD_Destroy" value = "50"></CONST>
+	<CONST name = "SCMD_Stop" value = "49"></CONST>
+	<CONST name = "STANCE_CeaseFire" value = "3"></CONST>
+	<CONST name = "CT_SupportCap" value = "1"></CONST>
+	<CONST name = "STATEID_Dead" value = "5"></CONST>
+	<CONST name = "SCMD_DefaultAction" value = "0"></CONST>
+	<CONST name = "SCMD_DeployWeapon" value = "77"></CONST>
+	<CONST name = "CT_Light" value = "1"></CONST>
+	<CONST name = "STATEID_Aftermath" value = "18"></CONST>
+	<CONST name = "RS_Locked" value = "0"></CONST>
+	<CONST name = "R_ENEMY" value = "1"></CONST>
+	<CONST name = "SCMD_Melee" value = "59"></CONST>
+	<CONST name = "SCMD_Rampage" value = "75"></CONST>
+	<CONST name = "STATEID_Idle" value = "0"></CONST>
+	<CONST name = "UC_LightInfantryHigh" value = "2"></CONST>
+	<CONST name = "SCMD_CancelReinforcement" value = "57"></CONST>
+	<CONST name = "RS_Researching" value = "2"></CONST>
+	<CONST name = "RS_Available" value = "1"></CONST>
+	<CONST name = "MUT_Addition" value = "0"></CONST>
+	<CONST name = "CMD_DeepStrike" value = "27"></CONST>
+	<CONST name = "STATEID_Flying" value = "13"></CONST>
+	<CONST name = "PQ_Research" value = "2"></CONST>
+</GROUP>
+</FUNCTIONLIST>
